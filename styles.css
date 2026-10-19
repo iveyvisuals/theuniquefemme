@@ -1,23 +1,5 @@
-/* Brand fonts: drop licensed webfont files into /fonts to use them.
-   Until then, the Google Fonts fallbacks below are used. */
-@font-face {
-  font-family: "Amoresa";
-  src: local("Amoresa"), local("Amoresa Aged"), url("fonts/Amoresa.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "The Seasons";
-  src: local("The Seasons"), local("TheSeasons-Reg"), url("fonts/TheSeasons-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: "The Seasons";
-  src: local("The Seasons Bold"), local("TheSeasons-Bd"), url("fonts/TheSeasons-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-display: swap;
-}
-
+/* Free stand-ins for the brand fonts: Pinyon Script for Amoresa,
+   Cormorant Garamond for The Seasons, Montserrat for body text. */
 :root {
   /* Primary */
   --olive-light: #A89C6E;
@@ -31,8 +13,8 @@
   --brown: #56382E;
   --cream: #F9F1E6;
 
-  --font-script: "Amoresa", "Pinyon Script", cursive;
-  --font-serif: "The Seasons", "Cormorant Garamond", Georgia, serif;
+  --font-script: "Pinyon Script", cursive;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
   --font-sans: "Montserrat", system-ui, sans-serif;
 
   --gutter: clamp(1rem, 5vw, 4rem);

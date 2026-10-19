@@ -13,7 +13,7 @@ Then open http://localhost:8080.
 ## To finish
 
 - **Ticket link:** paste the ticket page URL into `TICKET_URL` at the top of `script.js`. Every ticket button picks it up.
-- **Brand fonts:** the site uses Amoresa and The Seasons when they're installed. Otherwise it falls back to Pinyon Script and Cormorant Garamond from Google Fonts. To serve the real fonts to every visitor, add licensed webfont files to `fonts/` as `Amoresa.woff2`, `TheSeasons-Regular.woff2` and `TheSeasons-Bold.woff2`.
+- **Fonts:** free Google Fonts stand-ins are used for the brand fonts: Pinyon Script for Amoresa, Cormorant Garamond for The Seasons, and Montserrat for body text.
 - **Speakers, Activations, Vendors, Sponsors:** these currently say "Announcing soon". Update them in `index.html`.
 
 ## Hosting
