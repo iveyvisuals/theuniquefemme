@@ -122,8 +122,14 @@
     <section class="section section--cream" id="gallery">
       <div class="container">
         <p class="eyebrow">Gallery</p>
-        <h2 class="heading">A Look Back at Last Year</h2>
-        <ul class="gallery">
+        <div class="gallery__head">
+          <h2 class="heading">A Look Back at Last Year</h2>
+          <div class="gallery__arrows">
+            <button class="gallery__arrow" type="button" data-dir="-1" aria-label="Previous photos">&#8249;</button>
+            <button class="gallery__arrow" type="button" data-dir="1" aria-label="Next photos">&#8250;</button>
+          </div>
+        </div>
+        <ul class="gallery" tabindex="0" aria-label="Photos from last year's conference">
           <li><button class="gallery__item" type="button" data-full="assets/gallery/01.jpg"><img src="assets/gallery/01.jpg" width="1024" height="784" loading="lazy" alt="Attendees gathered together for a group photo in front of The UNIQUEfemme backdrop"></button></li>
           <li><button class="gallery__item" type="button" data-full="assets/gallery/02.jpg"><img src="assets/gallery/02.jpg" width="1024" height="683" loading="lazy" alt="Women moving together during an embodiment activation"></button></li>
           <li><button class="gallery__item" type="button" data-full="assets/gallery/03.jpg"><img src="assets/gallery/03.jpg" width="1024" height="683" loading="lazy" alt="Three attendees standing with their arms around each other"></button></li>

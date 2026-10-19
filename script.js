@@ -1,4 +1,24 @@
 
+// Gallery carousel arrows
+const track = document.querySelector(".gallery");
+if (track) {
+  const arrows = document.querySelectorAll(".gallery__arrow");
+  const update = () => {
+    const max = track.scrollWidth - track.clientWidth - 2;
+    arrows[0].disabled = track.scrollLeft <= 2;
+    arrows[1].disabled = track.scrollLeft >= max;
+  };
+  arrows.forEach((btn) =>
+    btn.addEventListener("click", () =>
+      track.scrollBy({ left: Number(btn.dataset.dir) * track.clientWidth * 0.8 })
+    )
+  );
+  track.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update);
+  window.addEventListener("load", update);
+  update();
+}
+
 // Gallery lightbox
 const lightbox = document.getElementById("lightbox");
 if (lightbox) {
