@@ -65,8 +65,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 .btn:hover { transform: translateY(-2px); }
 .btn--light { color: var(--charcoal); background: var(--cream); border-color: var(--cream); }
 .btn--light:hover { background: var(--pink); border-color: var(--pink); color: var(--cream); }
-.btn--wine { color: var(--cream); background: var(--wine); border-color: var(--wine); }
-.btn--wine:hover { background: var(--rose); border-color: var(--rose); }
 .btn--small { padding: .55rem 1.3rem; font-size: .7rem; }
 
 /* Nav */
@@ -438,7 +436,6 @@ ul { margin: 0; padding: 0; list-style: none; }
   border-top: 1px solid var(--olive-light);
 }
 .gallery__credit { font-size: .85rem; color: var(--brown); }
-.gallery__credit a { color: var(--wine); }
 @media (max-width: 600px) {
   .gallery__arrows { display: none; }
   .gallery { gap: .6rem; }
