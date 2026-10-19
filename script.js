@@ -1,5 +1,5 @@
-// Paste the live ticket page link here and every ticket button will use it.
-const TICKET_URL = "";
+// Ticket page link, used by every ticket button.
+const TICKET_URL = "https://eventbrite.ca/e/embodied-the-uniquefemme-conference-tickets-2003017323735?aff=oddtdtcreator";
 
 const nav = document.getElementById("nav");
 const toggle = document.getElementById("navToggle");

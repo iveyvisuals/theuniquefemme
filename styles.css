@@ -45,7 +45,6 @@ ul { margin: 0; padding: 0; list-style: none; }
   font-family: var(--font-script);
   font-size: 1.1em;
   line-height: .6;
-  text-transform: lowercase;
 }
 .logo__name {
   display: block;

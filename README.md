@@ -12,7 +12,7 @@ Then open http://localhost:8080.
 
 ## To finish
 
-- **Ticket link:** paste the ticket page URL into `TICKET_URL` at the top of `script.js`. Every ticket button picks it up.
+- **Ticket link:** set in `TICKET_URL` at the top of `script.js`. Every ticket button uses it.
 - **Fonts:** free Google Fonts stand-ins are used for the brand fonts: Pinyon Script for Amoresa, Cormorant Garamond for The Seasons, and Montserrat for body text.
 - **Speakers, Activations, Vendors, Sponsors:** these currently say "Announcing soon". Update them in `index.html`.
 
