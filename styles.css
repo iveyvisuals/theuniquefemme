@@ -148,6 +148,17 @@ ul { margin: 0; padding: 0; list-style: none; }
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 .hero__inner { position: relative; z-index: 1; width: 100%; max-width: 900px; min-width: 0; }
+/* Hero text fades up one line after another on load */
+.hero__inner > * { animation: heroIn 1.2s cubic-bezier(.22, .61, .36, 1) backwards; }
+.hero__inner > :nth-child(2) { animation-delay: .2s; }
+.hero__inner > :nth-child(3) { animation-delay: .45s; }
+.hero__inner > :nth-child(4) { animation-delay: .65s; }
+.hero__inner > :nth-child(5) { animation-delay: .8s; }
+.hero__inner > :nth-child(6) { animation-delay: .95s; }
+@keyframes heroIn {
+  from { opacity: 0; transform: translateY(18px); filter: blur(6px); }
+  to { opacity: 1; transform: none; filter: blur(0); }
+}
 .hero__brand { width: clamp(150px, 22vw, 230px); margin: 0 auto 1.25rem; }
 .hero__title {
   font-family: var(--font-script);
@@ -410,5 +421,5 @@ ul { margin: 0; padding: 0; list-style: none; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
-  .hero__scroll { animation: none; }
+  .hero__scroll, .hero__inner > * { animation: none; }
 }
