@@ -379,7 +379,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 @media (max-width: 560px) { .team { grid-template-columns: repeat(2, 1fr); } }
 
 /* Sponsors carousel */
-.section--brown { background: var(--brown); color: var(--cream); }
 .sponsors { padding-inline: 0; }
 .sponsors .container { padding-inline: var(--gutter); }
 .marquee {
@@ -438,13 +437,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* Footer */
 .footer {
   padding: 4rem var(--gutter) 3rem;
-  background: var(--charcoal);
-  color: var(--cream);
+  background: var(--cream);
+  color: var(--wine);
   text-align: center;
 }
 .footer__brand { width: 170px; margin: 0 auto 1.5rem; }
-.footer__meta { font-size: .75rem; letter-spacing: .22em; text-transform: uppercase; color: var(--olive-light); }
-.footer__credit { margin-top: 2rem; font-size: .72rem; opacity: .55; }
+.footer__meta { font-size: .75rem; letter-spacing: .22em; text-transform: uppercase; color: var(--olive); }
+.footer__credit { margin-top: 2rem; font-size: .72rem; color: var(--charcoal); opacity: .6; }
 
 /* Reveal on scroll */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .9s ease, transform .9s ease; }
