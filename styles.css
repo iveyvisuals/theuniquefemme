@@ -210,7 +210,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .eyebrow--cream { color: var(--cream); }
 .heading {
   font-family: var(--font-serif);
-  font-size: clamp(3rem, 8vw, 6rem);
+  font-size: clamp(2.6rem, 6.5vw, 4.75rem);
   line-height: 1.05;
   color: var(--wine);
   max-width: 22ch;
@@ -227,7 +227,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   align-items: center;
 }
 /* sits in a half-width column, so it scales a little smaller */
-.about .heading { max-width: none; font-size: clamp(3rem, 5.6vw, 5rem); }
+.about .heading { max-width: none; font-size: clamp(2.6rem, 4.8vw, 4.25rem); }
 .lead {
   margin-top: 2rem;
   font-size: clamp(1.05rem, 1.5vw, 1.2rem);
