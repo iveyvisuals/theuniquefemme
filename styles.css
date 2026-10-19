@@ -217,13 +217,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .heading em { font-style: normal; color: var(--rose); }
 .heading--light { color: var(--cream); }
-.script-heading {
-  font-family: var(--font-script);
-  font-weight: 400;
-  font-size: clamp(3.5rem, 10vw, 7rem);
-  line-height: 1.05;
-  color: var(--cream);
-}
 
 /* About */
 .about {
@@ -328,6 +321,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 @media (max-width: 760px) { .days { grid-template-columns: 1fr; } }
 
 /* Admission */
+.admission__title { max-width: none; }
 .admission { text-align: center; display: flex; flex-direction: column; align-items: center; }
 .admission__text { max-width: 36rem; margin: 1rem 0 3rem; font-size: 1.05rem; }
 .tickets {
