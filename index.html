@@ -24,6 +24,7 @@
     <nav class="nav__menu" id="navMenu" aria-label="Main">
       <a href="#embodied">Embodied</a>
       <a href="#experience">The Experience</a>
+      <a href="#gallery">Gallery</a>
       <a href="#team">Team</a>
       <a href="#faq">FAQ</a>
       <a href="#admission" class="btn btn--small" data-ticket-link>Tickets</a>
@@ -116,6 +117,39 @@
         </div>
       </div>
     </section>
+
+    <!-- GALLERY -->
+    <section class="section section--cream" id="gallery">
+      <div class="container">
+        <p class="eyebrow">Gallery</p>
+        <h2 class="heading">A Look Back at Last Year</h2>
+        <ul class="gallery">
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/01.jpg"><img src="assets/gallery/01.jpg" width="1024" height="784" loading="lazy" alt="Attendees gathered together for a group photo in front of The UNIQUEfemme backdrop"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/02.jpg"><img src="assets/gallery/02.jpg" width="1024" height="683" loading="lazy" alt="Women moving together during an embodiment activation"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/03.jpg"><img src="assets/gallery/03.jpg" width="1024" height="683" loading="lazy" alt="Three attendees standing with their arms around each other"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/04.jpg"><img src="assets/gallery/04.jpg" width="1024" height="1536" loading="lazy" alt="An attendee laughing during the conference"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/05.jpg"><img src="assets/gallery/05.jpg" width="1024" height="774" loading="lazy" alt="Speakers addressing the room from the floor"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/06.jpg"><img src="assets/gallery/06.jpg" width="1024" height="1304" loading="lazy" alt="Panelists sharing their stories with microphones in hand"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/07.jpg"><img src="assets/gallery/07.jpg" width="1024" height="705" loading="lazy" alt="The audience listening at round tables in the pavilion"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/08.jpg"><img src="assets/gallery/08.jpg" width="1024" height="1436" loading="lazy" alt="The UNIQUEfemme arch backdrop and florals"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/09.jpg"><img src="assets/gallery/09.jpg" width="1024" height="1490" loading="lazy" alt="A musician playing guitar for the room"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/10.jpg"><img src="assets/gallery/10.jpg" width="1024" height="1536" loading="lazy" alt="A speaker in a cowboy hat addressing the audience"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/11.jpg"><img src="assets/gallery/11.jpg" width="1024" height="683" loading="lazy" alt="Attendees journaling together at their tables"></button></li>
+          <li><button class="gallery__item" type="button" data-full="assets/gallery/12.jpg"><img src="assets/gallery/12.jpg" width="1024" height="1536" loading="lazy" alt="Two attendees sharing a hug"></button></li>
+        </ul>
+        <div class="gallery__footer">
+          <p class="gallery__credit">Photos by <a href="https://lizgildersphotography.pixieset.com/" target="_blank" rel="noopener">Liz Gilders Photography</a></p>
+          <a class="btn btn--wine" href="https://lizgildersphotography.pixieset.com/theuniquefemmeconference/" target="_blank" rel="noopener">View Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+      <button class="lightbox__close" type="button" aria-label="Close">&times;</button>
+      <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous photo">&#8249;</button>
+      <img class="lightbox__img" alt="">
+      <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next photo">&#8250;</button>
+    </div>
 
     <!-- ADMISSION -->
     <section class="section section--pink" id="admission">
