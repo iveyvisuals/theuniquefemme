@@ -236,16 +236,18 @@ ul { margin: 0; padding: 0; list-style: none; }
 .about .heading { max-width: 16ch; }
 .lead {
   margin-top: 2rem;
-  font-family: var(--font-serif);
-  font-size: clamp(1.3rem, 2.2vw, 1.6rem);
-  line-height: 1.45;
+  font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+  line-height: 1.8;
   color: var(--brown);
 }
 .about__body {
   margin-top: clamp(3.5rem, 7vw, 5.5rem);
-  padding-top: 2rem;
+  padding-top: 2.25rem;
   border-top: 1px solid var(--olive-light);
-  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  font-size: clamp(1.3rem, 2.7vw, 2.4rem);
+  line-height: 1.45;
+  color: var(--wine);
+  text-wrap: pretty;
 }
 
 /* Photo spaces */
