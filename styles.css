@@ -65,8 +65,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 .btn:hover { transform: translateY(-2px); }
 .btn--light { color: var(--charcoal); background: var(--cream); border-color: var(--cream); }
 .btn--light:hover { background: var(--pink); border-color: var(--pink); color: var(--cream); }
-.btn--dark { color: var(--cream); background: var(--charcoal); border-color: var(--charcoal); }
-.btn--dark:hover { background: var(--olive); border-color: var(--olive); }
 .btn--small { padding: .55rem 1.3rem; font-size: .7rem; }
 
 /* Nav */
@@ -159,7 +157,6 @@ ul { margin: 0; padding: 0; list-style: none; }
   from { opacity: 0; transform: translateY(18px); filter: blur(6px); }
   to { opacity: 1; transform: none; filter: blur(0); }
 }
-.hero__brand { width: clamp(150px, 22vw, 230px); margin: 0 auto 1.25rem; }
 .hero__title { width: min(100%, 780px); margin: 0 auto; }
 .hero__title img { width: 100%; height: auto; }
 .hero__dates {
