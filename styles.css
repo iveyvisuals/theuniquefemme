@@ -360,16 +360,27 @@ ul { margin: 0; padding: 0; list-style: none; }
   flex-direction: column;
   gap: .75rem;
   padding: 2rem 1.75rem 2.25rem;
-  background: var(--cream);
-  transition: background .35s, color .35s;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: var(--cream);
+  min-height: 340px;
+  justify-content: flex-end;
+  transition: transform .35s;
 }
-.pillar:hover { background: var(--wine); color: var(--cream); }
-.pillar:hover h3, .pillar:hover .pillar__num { color: var(--cream); }
-.pillar:hover .pillar__tag { color: var(--pink); }
-.pillar__num { font-family: var(--font-serif); color: var(--olive-light); font-size: 1.1rem; }
-.pillar h3 { font-family: var(--font-serif); font-size: 1.8rem; color: var(--wine); transition: color .35s; }
+.pillar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(43,42,41,.85) 0%, rgba(43,42,41,.4) 60%, rgba(43,42,41,.15) 100%);
+  transition: background .35s;
+}
+.pillar:hover::before { background: rgba(135,65,75,.8); }
+.pillar > * { position: relative; z-index: 1; }
+.pillar__num { font-family: var(--font-serif); color: var(--cream); font-size: 1.1rem; opacity: .7; }
+.pillar h3 { font-family: var(--font-serif); font-size: 1.8rem; color: var(--cream); }
 .pillar p { font-size: .9rem; flex: 1; }
-.pillar__tag { font-size: .68rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--rose); }
+.pillar__tag { font-size: .68rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--pink); }
 @media (max-width: 960px) { .pillars { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 520px) { .pillars { grid-template-columns: 1fr; } }
 
