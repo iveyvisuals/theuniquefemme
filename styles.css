@@ -294,7 +294,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .section { padding: clamp(5rem, 12vw, 9rem) var(--gutter); }
 .section--cream { background: var(--cream); }
 .section--olive { background: var(--olive); color: var(--cream); }
-.section--pink { background: var(--wine); color: var(--cream); }
+.section--pink { background: linear-gradient(150deg, #4A1C26 0%, var(--wine) 50%, #A84D5E 100%); color: var(--cream); }
 .section--wine { background: var(--wine); color: var(--cream); }
 .container { max-width: 1180px; margin: 0 auto; }
 .container--narrow { max-width: 820px; }
@@ -438,30 +438,37 @@ ul { margin: 0; padding: 0; list-style: none; }
 .tickets {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
-  width: min(100%, 760px);
+  gap: 1.5rem;
+  width: min(100%, 680px);
   margin-bottom: 3rem;
 }
 .ticket {
-  position: relative;
-  padding: 2rem 1.5rem;
-  background: var(--cream);
-  border-radius: var(--radius);
-  color: var(--wine);
+  padding: 2.25rem 2rem 2.5rem;
+  border: 1px solid rgba(249, 241, 230, .3);
+  color: var(--cream);
+  text-align: left;
 }
-.ticket::before, .ticket::after {
-  /* ticket notches */
-  content: "";
-  position: absolute; top: 50%;
-  width: 1.4rem; height: 1.4rem;
-  border-radius: 50%;
-  background: var(--wine);
-  transform: translateY(-50%);
+.ticket__num {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  opacity: .45;
+  margin-bottom: 1.5rem;
 }
-.ticket::before { left: -.7rem; }
-.ticket::after { right: -.7rem; }
-.ticket__date { font-family: var(--font-script); font-size: 2.4rem; line-height: 1.1; color: var(--rose); }
-.ticket h3 { margin-top: .4rem; font-family: var(--font-serif); font-size: 1.35rem; }
+.ticket__date {
+  font-family: var(--font-sans);
+  font-size: .65rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  opacity: .65;
+  margin-bottom: .5rem;
+}
+.ticket h3 {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--cream);
+}
 @media (max-width: 560px) { .tickets { grid-template-columns: 1fr; } }
 
 /* Team */
