@@ -220,17 +220,20 @@ ul { margin: 0; padding: 0; list-style: none; }
   to { opacity: 1; transform: none; filter: blur(0); }
 }
 .hero__title { width: min(100%, 1150px, 140vh); margin: 0 auto; }
-.hero__title img { width: 100%; height: auto; }
+.hero__title img { width: 100%; height: auto; transform: translateX(-0.8%); }
 .hero__dates {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  margin: 2.5rem 0 1rem;
+  max-width: 34rem;
+  margin: 2.5rem auto 1rem;
   font-size: .82rem;
   letter-spacing: .14em;
   text-transform: uppercase;
 }
+/* equal columns keep the divider on the centre line */
+.hero__dates p { flex: 1 1 0; line-height: 1.8; }
 .hero__day {
   display: block;
   font-family: var(--font-serif);
