@@ -238,11 +238,12 @@ ul { margin: 0; padding: 0; list-style: none; }
 .hero__title img { width: 100%; height: auto; transform: translateX(-0.8%); }
 .hero__dates {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 2.5rem;
-  max-width: 42rem;
-  margin: 2.5rem auto 1rem;
+  width: 100%;
+  max-width: 52rem;
+  margin: 2.5rem 0 1rem;
+  text-align: left;
 }
 .hero__date {
   display: flex;
@@ -274,6 +275,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   text-transform: uppercase;
   font-weight: 600;
   line-height: 1.25;
+  white-space: nowrap;
 }
 .hero__divider { width: 1px; align-self: stretch; background: rgba(249, 241, 230, .4); }
 .hero__venue {
