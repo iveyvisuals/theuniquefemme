@@ -219,6 +219,21 @@ ul { margin: 0; padding: 0; list-style: none; }
   from { opacity: 0; transform: translateY(18px); filter: blur(6px); }
   to { opacity: 1; transform: none; filter: blur(0); }
 }
+/* small production-credit line above the title, film-poster style */
+.hero__presents {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: clamp(.58rem, .85vw, .72rem);
+  letter-spacing: .42em;
+  text-indent: .42em;            /* offset the trailing letter-space so it sits centred */
+  text-transform: uppercase;
+  opacity: .72;
+  margin-bottom: clamp(1rem, 2.2vw, 1.75rem);
+}
+@media (max-width: 520px) {
+  /* tighter tracking so the credit line stays on one line on phones */
+  .hero__presents { letter-spacing: .26em; text-indent: .26em; }
+}
 .hero__title { width: min(100%, 1150px, 140vh); margin: 0 auto; }
 .hero__title img { width: 100%; height: auto; transform: translateX(-0.8%); }
 .hero__dates {
