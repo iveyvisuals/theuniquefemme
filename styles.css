@@ -239,9 +239,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .hero__dates {
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  gap: 3rem;
   width: 100%;
-  max-width: 52rem;
+  max-width: 36rem;
   margin: 2.5rem auto 1rem;
   text-align: left;
 }
