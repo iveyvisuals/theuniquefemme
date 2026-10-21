@@ -223,7 +223,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .hero__presents {
   font-family: var(--font-sans);
   font-weight: 400;
-  font-size: .8rem;              /* matches the venue line */
+  font-size: clamp(.9rem, 1.3vw, 1.15rem);
   letter-spacing: .3em;
   text-indent: .3em;             /* offset the trailing letter-space so it sits centred */
   text-transform: uppercase;
@@ -232,7 +232,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 @media (max-width: 520px) {
   /* tighter tracking so the credit line stays on one line on phones */
-  .hero__presents { letter-spacing: .18em; text-indent: .18em; }
+  .hero__presents { letter-spacing: .14em; text-indent: .14em; }
 }
 .hero__title { width: min(100%, 1150px, 140vh); margin: 0 auto; }
 .hero__title img { width: 100%; height: auto; transform: translateX(-0.8%); }
