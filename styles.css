@@ -240,23 +240,42 @@ ul { margin: 0; padding: 0; list-style: none; }
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
-  max-width: 34rem;
+  gap: 2.5rem;
+  max-width: 42rem;
   margin: 2.5rem auto 1rem;
-  font-size: .82rem;
-  letter-spacing: .14em;
-  text-transform: uppercase;
 }
-/* equal columns keep the divider on the centre line */
-.hero__dates p { flex: 1 1 0; line-height: 1.8; }
-.hero__day {
-  display: block;
+.hero__date {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 1 0;
+}
+.hero__date-num {
   font-family: var(--font-serif);
-  font-size: 1.6rem;
-  letter-spacing: 0;
-  text-transform: none;
+  font-size: 2.6rem;
+  line-height: 1;
+  opacity: .85;
+  flex-shrink: 0;
 }
-.hero__divider { width: 1px; align-self: stretch; background: rgba(249, 241, 230, .5); }
+.hero__date-info {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+.hero__date-label {
+  font-size: .62rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  opacity: .7;
+}
+.hero__date-title {
+  font-size: .88rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.hero__divider { width: 1px; align-self: stretch; background: rgba(249, 241, 230, .4); }
 .hero__venue {
   margin-bottom: 2.5rem;
   font-size: .8rem;
