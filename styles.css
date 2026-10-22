@@ -253,6 +253,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   font-family: var(--font-serif);
   font-size: 3.3rem;
   line-height: 1;
+  margin-top: -0.13em;
   opacity: .85;
   flex-shrink: 0;
 }
