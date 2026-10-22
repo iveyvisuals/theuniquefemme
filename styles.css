@@ -276,7 +276,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   line-height: 1.25;
   white-space: nowrap;
 }
-.hero__divider { width: 1px; align-self: stretch; background: rgba(249, 241, 230, .4); }
+.hero__divider { width: 1px; height: 2.5rem; align-self: center; background: rgba(249, 241, 230, .4); }
 .hero__venue {
   margin-bottom: 2.5rem;
   font-size: .8rem;
