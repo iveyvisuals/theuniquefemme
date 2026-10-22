@@ -447,12 +447,12 @@ ul { margin: 0; padding: 0; list-style: none; }
 .tickets {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  width: min(100%, 680px);
+  gap: 2rem;
+  width: 100%;
   margin-bottom: 3rem;
 }
 .ticket {
-  padding: 2.25rem 2rem 2.5rem;
+  padding: 3rem 2.5rem 3.5rem;
   border: 1px solid rgba(249, 241, 230, .25);
   border-top: 2px solid var(--olive-light);
   color: var(--cream);
@@ -476,10 +476,10 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .ticket h3 {
   font-family: var(--font-sans);
-  font-size: 1.4rem;
+  font-size: clamp(1.4rem, 1.7vw, 1.9rem);
   font-weight: 600;
   color: var(--cream);
-  line-height: 1.2;
+  line-height: 1.15;
 }
 @media (max-width: 560px) { .tickets { grid-template-columns: 1fr; } }
 
@@ -510,13 +510,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 .gallery__arrow {
   display: grid;
   place-items: center;
-  width: 52px;
-  height: 52px;
+  width: 48px;
+  height: 48px;
   border: 1px solid var(--wine);
   border-radius: 50%;
   background: transparent;
   color: var(--wine);
-  font-size: 1.8rem;
+  font-size: 0.85rem;
   line-height: 1;
   cursor: pointer;
   transition: background .3s, color .3s, opacity .3s;
