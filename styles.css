@@ -240,16 +240,14 @@ ul { margin: 0; padding: 0; list-style: none; }
   display: flex;
   align-items: center;
   gap: 3rem;
-  width: 100%;
-  max-width: 36rem;
-  margin: 2.5rem auto 1rem;
+  width: fit-content;
+  margin: 2.5rem auto 2.5rem;
   text-align: left;
 }
 .hero__date {
   display: flex;
   align-items: center;
   gap: 1rem;
-  flex: 1 1 0;
 }
 .hero__date-num {
   font-family: var(--font-serif);
