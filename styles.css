@@ -1,5 +1,5 @@
 /* Free stand-ins for the brand fonts: Pinyon Script for Amoresa,
-   Fraunces for The Seasons, Montserrat for body text. */
+   Cormorant Garamond for The Seasons, Montserrat for body text. */
 :root {
   /* Primary */
   --olive-light: #A89C6E;
@@ -14,7 +14,7 @@
   --cream: #F9F1E6;
 
   --font-script: "Pinyon Script", cursive;
-  --font-serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-serif: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
   --font-sans: "Montserrat", system-ui, sans-serif;
 
   --gutter: clamp(1rem, 5vw, 4rem);
@@ -315,8 +315,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .eyebrow--cream { color: var(--cream); }
 .heading {
   font-family: var(--font-serif);
-  font-size: clamp(2.6rem, 6.5vw, 4.75rem);
+  font-size: clamp(3rem, 6.5vw, 5.25rem);
   line-height: 1.05;
+  font-weight: 500;
   color: var(--wine);
   max-width: 22ch;
   text-wrap: balance;
