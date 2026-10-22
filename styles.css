@@ -457,7 +457,21 @@ ul { margin: 0; padding: 0; list-style: none; }
   border-top: 2px solid var(--olive-light);
   color: var(--cream);
   text-align: left;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height: clamp(320px, 35vw, 480px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
+.ticket::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(43,42,41,.93) 0%, rgba(43,42,41,.55) 55%, rgba(43,42,41,.2) 100%);
+}
+.ticket > * { position: relative; z-index: 1; }
 .ticket__num {
   display: block;
   font-family: var(--font-serif);
