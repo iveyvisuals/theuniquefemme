@@ -347,11 +347,13 @@ ul { margin: 0; padding: 0; list-style: none; }
   padding-top: 2.25rem;
   border-top: 1px solid var(--olive-light);
   font-family: var(--font-serif);
-  font-size: clamp(1.3rem, 2.7vw, 2.4rem);
-  line-height: 1.45;
+  font-size: clamp(2rem, 3.8vw, 3.4rem);
+  font-weight: 500;
+  line-height: 1.1;
   color: var(--wine);
   text-wrap: pretty;
 }
+.about__body em { font-style: normal; color: var(--rose); }
 
 /* Photo spaces */
 .about__media { position: relative; min-height: clamp(380px, 44vw, 600px); }
