@@ -718,38 +718,12 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .footer__social:hover { color: var(--rose); }
 
-/* Venue sponsor section */
-.venue { text-align: center; }
-.venue__heading {
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-  margin-top: 1.25rem;
-  margin-bottom: clamp(2.5rem, 5vw, 4rem);
-}
-.venue__heading-sub {
-  font-family: var(--font-serif);
-  font-size: clamp(.9rem, 1.4vw, 1.15rem);
-  font-weight: 500;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--wine);
-  opacity: .75;
-}
-.venue__heading-main {
-  font-family: var(--font-serif);
-  font-size: clamp(2.8rem, 6vw, 5.5rem);
-  font-weight: 500;
-  line-height: 1.05;
-  color: var(--charcoal);
-}
-.venue__photo-wrap {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border: 1px solid rgba(43, 42, 41, .12);
-  background: rgba(43, 42, 41, .04);
-  border-radius: var(--radius);
-}
+/* Forest green section */
+.section--forest { background: #1A2E1B; color: var(--cream); }
+.eyebrow--olive { color: var(--olive-light); }
+.heading--cream { color: var(--cream); }
+.heading--cream em { font-style: italic; color: var(--olive-light); }
+.lead--cream { color: rgba(249, 241, 230, .75); }
 
 /* Reveal on scroll */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .9s ease, transform .9s ease; }
