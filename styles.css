@@ -453,8 +453,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .ticket {
   padding: 3rem 2.5rem 3.5rem;
-  border: 1px solid rgba(249, 241, 230, .25);
-  border-top: 2px solid var(--olive-light);
+  border: none;
   color: var(--cream);
   text-align: left;
   position: relative;
