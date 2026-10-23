@@ -130,7 +130,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   padding: clamp(9rem, 22vh, 13rem) var(--gutter) clamp(5rem, 12vh, 8rem);
   color: var(--cream);
   text-align: center;
-  background: #1A2E1B;
+  background: #1C1C0A;
   overflow: hidden;
 }
 
@@ -145,19 +145,19 @@ ul { margin: 0; padding: 0; list-style: none; }
   animation: 36s ease-in-out infinite alternate;
 }
 .hero__bg span:nth-child(1) {
-  background: radial-gradient(52% 56% at 68% 30%, #2D5A2D 0%, rgba(45, 90, 45, .65) 42%, rgba(45, 90, 45, 0) 72%);
+  background: radial-gradient(50% 54% at 66% 28%, #6B6A2A 0%, rgba(107, 106, 42, .6) 40%, rgba(107, 106, 42, 0) 70%);
   animation-name: heroDriftA; animation-duration: 32s;
 }
 .hero__bg span:nth-child(2) {
-  background: radial-gradient(44% 48% at 28% 58%, #1E4A1E 0%, rgba(30, 74, 30, .7) 40%, rgba(30, 74, 30, 0) 70%);
+  background: radial-gradient(46% 50% at 26% 62%, #C8566B 0%, rgba(200, 86, 107, .55) 40%, rgba(200, 86, 107, 0) 70%);
   animation-name: heroDriftB; animation-duration: 40s; animation-delay: -9s;
 }
 .hero__bg span:nth-child(3) {
-  background: radial-gradient(46% 50% at 74% 82%, #3A5C1A 0%, rgba(58, 92, 26, .6) 40%, rgba(58, 92, 26, 0) 70%);
+  background: radial-gradient(48% 52% at 72% 80%, #4B4B1F 0%, rgba(75, 75, 31, .65) 40%, rgba(75, 75, 31, 0) 70%);
   animation-name: heroDriftC; animation-duration: 46s; animation-delay: -17s;
 }
 .hero__bg span:nth-child(4) {
-  background: radial-gradient(34% 38% at 20% 22%, #B35068 0%, rgba(179, 80, 104, .35) 36%, rgba(179, 80, 104, 0) 64%);
+  background: radial-gradient(42% 46% at 22% 24%, #E8A0B0 0%, rgba(232, 160, 176, .5) 38%, rgba(232, 160, 176, 0) 66%);
   animation-name: heroDriftD; animation-duration: 54s; animation-delay: -26s;
 }
 /* soft vignette over the moving colour so the title stays readable */
@@ -169,16 +169,16 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* on narrow screens the blooms spread wider so pink and green both read */
 @media (max-width: 760px) {
   .hero__bg span:nth-child(1) {
-    background: radial-gradient(72% 38% at 66% 20%, #2D5A2D 0%, rgba(45, 90, 45, .65) 44%, rgba(45, 90, 45, 0) 76%);
+    background: radial-gradient(70% 38% at 64% 20%, #6B6A2A 0%, rgba(107, 106, 42, .6) 44%, rgba(107, 106, 42, 0) 74%);
   }
   .hero__bg span:nth-child(2) {
-    background: radial-gradient(68% 36% at 26% 54%, #1E4A1E 0%, rgba(30, 74, 30, .7) 44%, rgba(30, 74, 30, 0) 74%);
+    background: radial-gradient(66% 36% at 24% 58%, #C8566B 0%, rgba(200, 86, 107, .55) 44%, rgba(200, 86, 107, 0) 74%);
   }
   .hero__bg span:nth-child(3) {
-    background: radial-gradient(72% 34% at 72% 86%, #3A5C1A 0%, rgba(58, 92, 26, .62) 44%, rgba(58, 92, 26, 0) 76%);
+    background: radial-gradient(70% 34% at 70% 84%, #4B4B1F 0%, rgba(75, 75, 31, .65) 44%, rgba(75, 75, 31, 0) 76%);
   }
   .hero__bg span:nth-child(4) {
-    background: radial-gradient(50% 26% at 18% 14%, #B35068 0%, rgba(179, 80, 104, .35) 40%, rgba(179, 80, 104, 0) 66%);
+    background: radial-gradient(58% 28% at 18% 16%, #E8A0B0 0%, rgba(232, 160, 176, .5) 42%, rgba(232, 160, 176, 0) 68%);
   }
 }
 
@@ -718,8 +718,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .footer__social:hover { color: var(--rose); }
 
-/* Forest green section */
-.section--forest { background: #1A2E1B; color: var(--cream); }
+/* Olive section */
+.section--forest { background: #252512; color: var(--cream); }
 .eyebrow--olive { color: var(--olive-light); }
 .heading--cream { color: var(--cream); }
 .heading--cream em { font-style: italic; color: var(--olive-light); }
