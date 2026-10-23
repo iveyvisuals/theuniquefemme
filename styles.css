@@ -130,7 +130,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   padding: clamp(9rem, 22vh, 13rem) var(--gutter) clamp(5rem, 12vh, 8rem);
   color: var(--cream);
   text-align: center;
-  background: #4E1F29;
+  background: #1A2E1B;
   overflow: hidden;
 }
 
@@ -145,19 +145,19 @@ ul { margin: 0; padding: 0; list-style: none; }
   animation: 36s ease-in-out infinite alternate;
 }
 .hero__bg span:nth-child(1) {
-  background: radial-gradient(42% 46% at 32% 26%, #F2BAC4 0%, rgba(242, 186, 196, .55) 38%, rgba(242, 186, 196, 0) 70%);
+  background: radial-gradient(52% 56% at 68% 30%, #2D5A2D 0%, rgba(45, 90, 45, .65) 42%, rgba(45, 90, 45, 0) 72%);
   animation-name: heroDriftA; animation-duration: 32s;
 }
 .hero__bg span:nth-child(2) {
-  background: radial-gradient(48% 52% at 64% 46%, #C8566B 0%, rgba(200, 86, 107, .5) 40%, rgba(200, 86, 107, 0) 72%);
+  background: radial-gradient(44% 48% at 28% 58%, #1E4A1E 0%, rgba(30, 74, 30, .7) 40%, rgba(30, 74, 30, 0) 70%);
   animation-name: heroDriftB; animation-duration: 40s; animation-delay: -9s;
 }
 .hero__bg span:nth-child(3) {
-  background: radial-gradient(46% 50% at 74% 80%, #4B4B1F 0%, rgba(75, 75, 31, .6) 40%, rgba(75, 75, 31, 0) 70%);
+  background: radial-gradient(46% 50% at 74% 82%, #3A5C1A 0%, rgba(58, 92, 26, .6) 40%, rgba(58, 92, 26, 0) 70%);
   animation-name: heroDriftC; animation-duration: 46s; animation-delay: -17s;
 }
 .hero__bg span:nth-child(4) {
-  background: radial-gradient(40% 44% at 20% 82%, #A89C6E 0%, rgba(168, 156, 110, .4) 38%, rgba(168, 156, 110, 0) 68%);
+  background: radial-gradient(34% 38% at 20% 22%, #B35068 0%, rgba(179, 80, 104, .35) 36%, rgba(179, 80, 104, 0) 64%);
   animation-name: heroDriftD; animation-duration: 54s; animation-delay: -26s;
 }
 /* soft vignette over the moving colour so the title stays readable */
@@ -169,16 +169,16 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* on narrow screens the blooms spread wider so pink and green both read */
 @media (max-width: 760px) {
   .hero__bg span:nth-child(1) {
-    background: radial-gradient(62% 34% at 36% 16%, #F2BAC4 0%, rgba(242, 186, 196, .55) 42%, rgba(242, 186, 196, 0) 74%);
+    background: radial-gradient(72% 38% at 66% 20%, #2D5A2D 0%, rgba(45, 90, 45, .65) 44%, rgba(45, 90, 45, 0) 76%);
   }
   .hero__bg span:nth-child(2) {
-    background: radial-gradient(70% 36% at 62% 44%, #C8566B 0%, rgba(200, 86, 107, .5) 44%, rgba(200, 86, 107, 0) 76%);
+    background: radial-gradient(68% 36% at 26% 54%, #1E4A1E 0%, rgba(30, 74, 30, .7) 44%, rgba(30, 74, 30, 0) 74%);
   }
   .hero__bg span:nth-child(3) {
-    background: radial-gradient(72% 34% at 58% 84%, #4B4B1F 0%, rgba(75, 75, 31, .62) 44%, rgba(75, 75, 31, 0) 76%);
+    background: radial-gradient(72% 34% at 72% 86%, #3A5C1A 0%, rgba(58, 92, 26, .62) 44%, rgba(58, 92, 26, 0) 76%);
   }
   .hero__bg span:nth-child(4) {
-    background: radial-gradient(60% 28% at 16% 94%, #A89C6E 0%, rgba(168, 156, 110, .42) 42%, rgba(168, 156, 110, 0) 72%);
+    background: radial-gradient(50% 26% at 18% 14%, #B35068 0%, rgba(179, 80, 104, .35) 40%, rgba(179, 80, 104, 0) 66%);
   }
 }
 
@@ -717,6 +717,39 @@ ul { margin: 0; padding: 0; list-style: none; }
   transition: color .3s;
 }
 .footer__social:hover { color: var(--rose); }
+
+/* Venue sponsor section */
+.venue { text-align: center; }
+.venue__heading {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  margin-top: 1.25rem;
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+.venue__heading-sub {
+  font-family: var(--font-serif);
+  font-size: clamp(.9rem, 1.4vw, 1.15rem);
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--wine);
+  opacity: .75;
+}
+.venue__heading-main {
+  font-family: var(--font-serif);
+  font-size: clamp(2.8rem, 6vw, 5.5rem);
+  font-weight: 500;
+  line-height: 1.05;
+  color: var(--charcoal);
+}
+.venue__photo-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid rgba(43, 42, 41, .12);
+  background: rgba(43, 42, 41, .04);
+  border-radius: var(--radius);
+}
 
 /* Reveal on scroll */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .9s ease, transform .9s ease; }
