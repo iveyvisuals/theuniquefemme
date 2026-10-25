@@ -381,7 +381,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1px;
-  margin-top: clamp(3.5rem, 8vw, 6rem);
+  margin-top: clamp(1.5rem, 3vw, 2.5rem);
   background: rgba(168, 156, 110, .5);
   border: 1px solid rgba(168, 156, 110, .5);
 }
