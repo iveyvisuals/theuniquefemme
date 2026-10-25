@@ -145,7 +145,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   animation: 36s ease-in-out infinite alternate;
 }
 .hero__bg span:nth-child(1) {
-  background: radial-gradient(82% 88% at 16% 20%, #6B6A2A 0%, rgba(107, 106, 42, .8) 40%, rgba(107, 106, 42, 0) 72%);
+  background: radial-gradient(82% 88% at 16% 20%, #A0A030 0%, rgba(160, 160, 48, .75) 36%, rgba(160, 160, 48, 0) 70%);
   animation-name: heroDriftA; animation-duration: 18s;
 }
 .hero__bg span:nth-child(2) {
@@ -153,7 +153,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   animation-name: heroDriftB; animation-duration: 22s; animation-delay: -6s;
 }
 .hero__bg span:nth-child(3) {
-  background: radial-gradient(80% 86% at 80% 84%, #4B4B1F 0%, rgba(75, 75, 31, .8) 40%, rgba(75, 75, 31, 0) 72%);
+  background: radial-gradient(80% 86% at 80% 84%, #3A3A10 0%, rgba(58, 58, 16, .85) 40%, rgba(58, 58, 16, 0) 72%);
   animation-name: heroDriftC; animation-duration: 26s; animation-delay: -11s;
 }
 .hero__bg span:nth-child(4) {
@@ -169,13 +169,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* on narrow screens the blooms spread wider so pink and green both read */
 @media (max-width: 760px) {
   .hero__bg span:nth-child(1) {
-    background: radial-gradient(95% 58% at 14% 18%, #6B6A2A 0%, rgba(107, 106, 42, .8) 42%, rgba(107, 106, 42, 0) 74%);
+    background: radial-gradient(95% 58% at 14% 18%, #A0A030 0%, rgba(160, 160, 48, .75) 38%, rgba(160, 160, 48, 0) 72%);
   }
   .hero__bg span:nth-child(2) {
     background: radial-gradient(40% 22% at 90% 10%, #B3566B 0%, rgba(179, 86, 107, .38) 46%, rgba(179, 86, 107, 0) 72%);
   }
   .hero__bg span:nth-child(3) {
-    background: radial-gradient(92% 56% at 82% 86%, #4B4B1F 0%, rgba(75, 75, 31, .8) 42%, rgba(75, 75, 31, 0) 74%);
+    background: radial-gradient(92% 56% at 82% 86%, #3A3A10 0%, rgba(58, 58, 16, .85) 42%, rgba(58, 58, 16, 0) 74%);
   }
   .hero__bg span:nth-child(4) {
     background: radial-gradient(38% 20% at 10% 90%, #D48095 0%, rgba(212, 128, 149, .35) 46%, rgba(212, 128, 149, 0) 72%);
