@@ -145,7 +145,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   animation: 36s ease-in-out infinite alternate;
 }
 .hero__bg span:nth-child(1) {
-  background: radial-gradient(84% 90% at 14% 18%, #A0A030 0%, rgba(160, 160, 48, .72) 36%, rgba(160, 160, 48, 0) 68%);
+  background: radial-gradient(84% 90% at 14% 18%, #6E6E38 0%, rgba(110, 110, 56, .72) 36%, rgba(160, 160, 48, 0) 68%);
   animation-name: heroDriftA; animation-duration: 5s;
 }
 .hero__bg span:nth-child(2) {
@@ -169,7 +169,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* on narrow screens the blooms spread wider so pink and green both read */
 @media (max-width: 760px) {
   .hero__bg span:nth-child(1) {
-    background: radial-gradient(95% 58% at 12% 16%, #A0A030 0%, rgba(160, 160, 48, .72) 38%, rgba(160, 160, 48, 0) 70%);
+    background: radial-gradient(95% 58% at 12% 16%, #6E6E38 0%, rgba(110, 110, 56, .72) 38%, rgba(160, 160, 48, 0) 70%);
   }
   .hero__bg span:nth-child(2) {
     background: radial-gradient(100% 34% at 52% 3%, #87414B 0%, rgba(135, 65, 75, .5) 44%, rgba(135, 65, 75, 0) 72%);
