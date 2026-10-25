@@ -149,7 +149,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   animation-name: heroDriftA; animation-duration: 5s;
 }
 .hero__bg span:nth-child(2) {
-  background: radial-gradient(60% 65% at 82% 14%, #87414B 0%, rgba(135, 65, 75, .7) 40%, rgba(135, 65, 75, 0) 70%);
+  background: radial-gradient(28% 32% at 82% 14%, #87414B 0%, rgba(135, 65, 75, .35) 42%, rgba(135, 65, 75, 0) 68%);
   animation-name: heroDriftB; animation-duration: 6s; animation-delay: -2s;
 }
 .hero__bg span:nth-child(3) {
@@ -157,7 +157,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   animation-name: heroDriftC; animation-duration: 7s; animation-delay: -3s;
 }
 .hero__bg span:nth-child(4) {
-  background: radial-gradient(58% 62% at 18% 84%, #B3566B 0%, rgba(179, 86, 107, .65) 40%, rgba(179, 86, 107, 0) 70%);
+  background: radial-gradient(26% 30% at 18% 84%, #B3566B 0%, rgba(179, 86, 107, .3) 42%, rgba(179, 86, 107, 0) 68%);
   animation-name: heroDriftD; animation-duration: 8s; animation-delay: -4s;
 }
 /* soft vignette over the moving colour so the title stays readable */
