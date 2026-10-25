@@ -139,26 +139,26 @@ ul { margin: 0; padding: 0; list-style: none; }
 .hero__bg { position: absolute; inset: 0; z-index: 0; overflow: hidden; }
 .hero__bg span {
   position: absolute;
-  inset: -25%;
+  inset: -40%;
   display: block;
   will-change: transform;
   animation: 36s ease-in-out infinite alternate;
 }
 .hero__bg span:nth-child(1) {
-  background: radial-gradient(66% 70% at 46% 40%, #6B6A2A 0%, rgba(107, 106, 42, .7) 44%, rgba(107, 106, 42, 0) 74%);
-  animation-name: heroDriftA; animation-duration: 16s;
+  background: radial-gradient(75% 80% at 18% 22%, #6B6A2A 0%, rgba(107, 106, 42, .75) 38%, rgba(107, 106, 42, 0) 70%);
+  animation-name: heroDriftA; animation-duration: 18s;
 }
 .hero__bg span:nth-child(2) {
-  background: radial-gradient(44% 48% at 58% 58%, #87414B 0%, rgba(135, 65, 75, .6) 40%, rgba(135, 65, 75, 0) 68%);
-  animation-name: heroDriftB; animation-duration: 20s; animation-delay: -5s;
+  background: radial-gradient(70% 75% at 82% 18%, #87414B 0%, rgba(135, 65, 75, .7) 38%, rgba(135, 65, 75, 0) 70%);
+  animation-name: heroDriftB; animation-duration: 22s; animation-delay: -6s;
 }
 .hero__bg span:nth-child(3) {
-  background: radial-gradient(62% 66% at 36% 62%, #4B4B1F 0%, rgba(75, 75, 31, .72) 42%, rgba(75, 75, 31, 0) 72%);
-  animation-name: heroDriftC; animation-duration: 24s; animation-delay: -9s;
+  background: radial-gradient(72% 78% at 78% 82%, #4B4B1F 0%, rgba(75, 75, 31, .75) 38%, rgba(75, 75, 31, 0) 70%);
+  animation-name: heroDriftC; animation-duration: 26s; animation-delay: -11s;
 }
 .hero__bg span:nth-child(4) {
-  background: radial-gradient(38% 42% at 62% 30%, #B3566B 0%, rgba(179, 86, 107, .45) 38%, rgba(179, 86, 107, 0) 64%);
-  animation-name: heroDriftD; animation-duration: 28s; animation-delay: -13s;
+  background: radial-gradient(68% 72% at 20% 80%, #B3566B 0%, rgba(179, 86, 107, .6) 36%, rgba(179, 86, 107, 0) 68%);
+  animation-name: heroDriftD; animation-duration: 30s; animation-delay: -15s;
 }
 /* soft vignette over the moving colour so the title stays readable */
 .hero__bg::after {
@@ -169,16 +169,16 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* on narrow screens the blooms spread wider so pink and green both read */
 @media (max-width: 760px) {
   .hero__bg span:nth-child(1) {
-    background: radial-gradient(86% 48% at 46% 38%, #6B6A2A 0%, rgba(107, 106, 42, .7) 46%, rgba(107, 106, 42, 0) 76%);
+    background: radial-gradient(90% 55% at 16% 20%, #6B6A2A 0%, rgba(107, 106, 42, .75) 40%, rgba(107, 106, 42, 0) 72%);
   }
   .hero__bg span:nth-child(2) {
-    background: radial-gradient(62% 34% at 56% 60%, #87414B 0%, rgba(135, 65, 75, .6) 42%, rgba(135, 65, 75, 0) 70%);
+    background: radial-gradient(85% 50% at 84% 18%, #87414B 0%, rgba(135, 65, 75, .7) 38%, rgba(135, 65, 75, 0) 70%);
   }
   .hero__bg span:nth-child(3) {
-    background: radial-gradient(80% 40% at 34% 66%, #4B4B1F 0%, rgba(75, 75, 31, .72) 44%, rgba(75, 75, 31, 0) 74%);
+    background: radial-gradient(88% 52% at 80% 84%, #4B4B1F 0%, rgba(75, 75, 31, .75) 38%, rgba(75, 75, 31, 0) 70%);
   }
   .hero__bg span:nth-child(4) {
-    background: radial-gradient(54% 28% at 64% 26%, #B3566B 0%, rgba(179, 86, 107, .45) 40%, rgba(179, 86, 107, 0) 66%);
+    background: radial-gradient(82% 48% at 18% 82%, #B3566B 0%, rgba(179, 86, 107, .6) 36%, rgba(179, 86, 107, 0) 68%);
   }
 }
 
