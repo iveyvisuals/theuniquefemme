@@ -149,7 +149,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   animation-name: heroDriftA; animation-duration: 18s;
 }
 .hero__bg span:nth-child(2) {
-  background: radial-gradient(70% 75% at 82% 18%, #87414B 0%, rgba(135, 65, 75, .7) 38%, rgba(135, 65, 75, 0) 70%);
+  background: radial-gradient(70% 75% at 82% 18%, #B3566B 0%, rgba(179, 86, 107, .65) 38%, rgba(179, 86, 107, 0) 70%);
   animation-name: heroDriftB; animation-duration: 22s; animation-delay: -6s;
 }
 .hero__bg span:nth-child(3) {
@@ -157,7 +157,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   animation-name: heroDriftC; animation-duration: 26s; animation-delay: -11s;
 }
 .hero__bg span:nth-child(4) {
-  background: radial-gradient(68% 72% at 20% 80%, #B3566B 0%, rgba(179, 86, 107, .6) 36%, rgba(179, 86, 107, 0) 68%);
+  background: radial-gradient(68% 72% at 20% 80%, #D48095 0%, rgba(212, 128, 149, .6) 36%, rgba(212, 128, 149, 0) 68%);
   animation-name: heroDriftD; animation-duration: 30s; animation-delay: -15s;
 }
 /* soft vignette over the moving colour so the title stays readable */
@@ -172,13 +172,13 @@ ul { margin: 0; padding: 0; list-style: none; }
     background: radial-gradient(90% 55% at 16% 20%, #6B6A2A 0%, rgba(107, 106, 42, .75) 40%, rgba(107, 106, 42, 0) 72%);
   }
   .hero__bg span:nth-child(2) {
-    background: radial-gradient(85% 50% at 84% 18%, #87414B 0%, rgba(135, 65, 75, .7) 38%, rgba(135, 65, 75, 0) 70%);
+    background: radial-gradient(85% 50% at 84% 18%, #B3566B 0%, rgba(179, 86, 107, .65) 38%, rgba(179, 86, 107, 0) 70%);
   }
   .hero__bg span:nth-child(3) {
     background: radial-gradient(88% 52% at 80% 84%, #4B4B1F 0%, rgba(75, 75, 31, .75) 38%, rgba(75, 75, 31, 0) 70%);
   }
   .hero__bg span:nth-child(4) {
-    background: radial-gradient(82% 48% at 18% 82%, #B3566B 0%, rgba(179, 86, 107, .6) 36%, rgba(179, 86, 107, 0) 68%);
+    background: radial-gradient(82% 48% at 18% 82%, #D48095 0%, rgba(212, 128, 149, .6) 36%, rgba(212, 128, 149, 0) 68%);
   }
 }
 
