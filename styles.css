@@ -516,7 +516,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .member h3 { font-family: var(--font-serif); font-size: 1.4rem; color: var(--wine); line-height: 1.2; }
 .member p { margin-top: .35rem; font-size: .78rem; letter-spacing: .06em; color: var(--brown); }
-@media (max-width: 960px) { .team { grid-template-columns: repeat(3, minmax(0, 220px)); justify-content: center; } }
+@media (max-width: 960px) { .team { display: flex; flex-wrap: wrap; justify-content: center; } .team .member { width: calc(33.333% - 1.5rem); min-width: 160px; max-width: 220px; } }
 @media (max-width: 560px) { .team { grid-template-columns: repeat(2, 1fr); } }
 
 /* Gallery carousel */
